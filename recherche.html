@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src='projet.js' defer></script>
+    <title>SITE STREAMING-RECHERCHE</title>
+</head>
+<body>
+    
+    <nav >
+        <a href="index.html"><img class="logo" src="logo.png" alt=""></a>
+        <a href="recherche.html"> <img class="rechercher" src="loupe.png" alt="rechercher"> </a>
+        <div class="abonne invisible">
+            <a href="inscription.html">S'ABONNER</a>
+        </div>
+       
+    </nav>
+	<div class="liste">
+	<a href="index.html"><div class="retour invisible">
+                    <img src="fleche2.png" alt="flèche">
+                    <h3>Retour</h3> 
+        </div></a>
+
+    <input id="searchbar" onkeyup="search_film()" type="text"
+        name="search" placeholder="Search films..">
+      
+    
+    <ol id='list'>
+        <a href="X.html"><li class="film">X</li></a>
+        <a href="adam.html"><li class="film">Black Adam</li></a>
+        <a href="menteur.html"><li class="film">Menteur</li></a>
+        <a href="western-front.html"><li class="film">Western Front </li></a>
+        <a href="bullet-train.html"><li class="film">Bullet Train</li></a>
+        <a href="uncharted.html"><li class="film">Uncharted</li></a>
+        <a href="smile.html"><li class="film">Smile </li></a>
+        <li class="film">King Kong</li>
+        <li class="film">Avengers</li>
+        <li class="film">Inseparables</li>
+        <li class="film">Thor</li>
+	</ol>
+    </div>
+
+    <script src="recherche.js"></script>
+</body>
